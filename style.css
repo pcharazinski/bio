@@ -45,7 +45,7 @@ body {
     
   }
   .bg{
-    background: url("https://cdn.pixabay.com/photo/2015/06/08/15/11/typewriter-801921_960_720.jpg") repeat-x bottom left; /* Nowe */
+    background: url("type.jpg") repeat-x bottom left; /* Nowe */
     height: 100%; /* Dopisane */
     position: absolute; /* Nowe */
     background-size: 100%; /* Nowe */
