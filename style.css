@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color:black;
+    opacity: 0.8;
+    
+    
+  }
+  h1:hover{
+  opacity:0.6;
+  cursor: pointer; 
+  }
+  p {
+    font-size: 18px;
+    margin: 0 0 0 0;
+    color:black;
+    opacity: 0.8;
+    letter-spacing: 1px;
+  }
+  
+  a {
+    color:black;
+    opacity: 0.8; /* Dopisane */
+    outline: 3; /* Nowe */
+    text-decoration: none; /* Nowe */
+  }
+  
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #348cb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .bg{
+    background: url("https://cdn.pixabay.com/photo/2015/06/08/15/11/typewriter-801921_960_720.jpg") repeat-x bottom left; /* Nowe */
+    height: 100%; /* Dopisane */
+    position: absolute; /* Nowe */
+    background-size: 100%; /* Nowe */
+    width: 100%; /* Nowe */
+    
+    animation: //bg 60s linear infinite;
+  }
+  .middle-box {
+    animation: show 0.3s 0s forwards; 
+    text-align: center;
+    width: 100%;
+    
+    
+    
+  }
+  
+  .nav {
+    display: flex; /* Dopisane */
+    justify-content: center; /* Dopisane */
+    
+  }
+  
+  .nav-item {
+    
+    animation: show 0.5s ease-in-out forwards; /* Nowe */
+  transition: all 0.3s ease-in-out;
+    border-radius: 100%; /* Nowe */
+    border: solid 1px black; /* Nowe */
+    opacity: 0.8;
+    width: 50px; /* Dopisane */
+    height: 50px; /* Dopisane */
+    margin: 0 10px; /* Dopisane */
+    display: flex; /* Dopisane */
+    align-items: center; /* Dopisane */
+    justify-content: center; /* Dopisane */
+    
+  }
+  
+  .nav-item:hover {
+    cursor: pointer; /* Nowe */
+        opacity: 0.5;
+    
+  }
+  .nav-item a:hover {
+    
+        opacity: 0.5;
+    
+  }
+  
+  .nav-item a {
+    font-size: 28px; /* Dopisane */
+    
+  }
+
+
+  @keyframes show {
+    /* Nowe */
+    0% {
+      transform: translate(0, 16px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  @keyframes bg {
+    /* Dopisane */
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-4450px);
+    }
+  }
+  
