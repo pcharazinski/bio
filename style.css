@@ -45,7 +45,7 @@ body {
     
   }
   .bg{
-    background: url("type.jpg") repeat-x bottom left; /* Nowe */
+    background: url("lists.jpg") repeat-x bottom left; /* Nowe */
     height: 100%; /* Dopisane */
     position: absolute; /* Nowe */
     background-size: 100%; /* Nowe */
